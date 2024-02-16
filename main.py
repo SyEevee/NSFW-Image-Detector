@@ -91,7 +91,7 @@ with tf.device('/gpu:0'):
     
 
     # Model checkpoint
-    filepath = "nsfw_model2.h5"
+    filepath = "nsfw_model.h5"
     checkpoint = ModelCheckpoint(filepath, monitor='val_accuracy', verbose=1, save_best_only=True, mode='max')
     # Model training
     model.fit(
