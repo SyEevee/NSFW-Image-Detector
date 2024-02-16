@@ -1,7 +1,7 @@
 
 # Image Classification Project
 
-This project focuses on classifying images into five distinct categories using machine learning. It utilizes two models, `model_1.h5` and `model_2.h5`.
+This project focuses on classifying images into five distinct categories using machine learning. It utilizes pretrained InceptionV3.
 
 ## Dataset
 
